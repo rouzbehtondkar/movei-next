@@ -1,5 +1,6 @@
 import Link from "next/link";
 import Image from "next/image";
+import { ImWrench } from "react-icons/im";
 
 const Header = () => {
     return (
@@ -48,9 +49,9 @@ const Header = () => {
                 </nav>
                 <div className="">
                     
-                    <Link className=" bg-yellow-400 transition-all duration-500 text-zinc-50 hover:bg-green-400 hover:text-zinc-100 text-zinc-100- flex justify-center items-center w-28 h-8 rounded-md" href={"/"}>سبد خرید .</Link>
+                    <Link className=" bg-yellow-400 transition-all duration-500 text-zinc-50 hover:bg-green-400 hover:text-zinc-100 text-zinc-100- flex justify-center items-center w-28 h-8 rounded-md" href={"/"}> <ImWrench/> سبد خرید 0</Link>
                         
-                
+                   
                     </div>
             </div>
         </header>
